@@ -1,10 +1,10 @@
-# USDX Layer
+# USD1 Routing
 
 ![USDX Layer](./usdxlayer.png)
 
 ## Abstract
 
-USDX Layer is an execution and routing abstraction layer designed to derive deterministic execution paths from observed USD1 economic activity. It does not custody, wrap, or modify USD1 tokens. Instead, it provides a formal framework for defining and enforcing routing policies, execution constraints, and integrity verification for USD1-based operations.
+USD1 Routing is an execution and routing abstraction layer designed to derive deterministic execution paths from observed USD1 economic activity. It does not custody, wrap, or modify USD1 tokens. Instead, it provides a formal framework for defining and enforcing routing policies, execution constraints, and integrity verification for USD1-based operations.
 
 The system operates as a pure abstraction: it consumes normalized observations of USD1 activity, applies deterministic routing logic through a constraint graph, and produces verifiable execution plans. All execution paths are reproducible from the same input state and policy configuration.
 
